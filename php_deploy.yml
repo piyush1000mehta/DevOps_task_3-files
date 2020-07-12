@@ -25,8 +25,8 @@ spec:
        volumes:
        - name: php_deploy-vol
          persistentVolumeClaim:
-           ClaimName: php_deploy_pvc
+           claimName: php_deploy_pvc
        - name: php_deploy_log
          persistentVolumeClaim:
-           ClaimName: php_deploy_pvc
+           claimName: php_deploy_pvc
 
